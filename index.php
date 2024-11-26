@@ -42,6 +42,29 @@
   <span class="dot"></span> 
 </div>
 
+<div class="row1">
+  <div class="column1" >
+   <div class="card">
+      <img src="IMAGE/hvac.jfif" style="width:100%" height="100px">
+      <h2>HVAC</h2>
+    <p>HVAC stands for heating, ventilation, and air conditioning. It's a system that controls the temperature, humidity, and air quality of a space. HVAC systems can include components like furnaces, boilers, air conditioning units, ventilation systems, air cleaners, humidifiers, and dehumidifiers</p>
+  </div> 
+  </div>
+  <div class="column1 ">
+   <div class="card">
+      <img src="IMAGE/duct.jfif" style="width:100%" height="100px" ">
+    <h2>Ductable AC</h2>
+    <p>A ductable AC system is a type of central air conditioning where cooled air is distributed throughout a building through a network of hidden ducts, providing a discreet and even cooling solution by delivering air through vents strategically placed in ceilings or walls, with only the air grilles visible to the eye; essentially, the entire system is concealed within the building structure, offering a clean aesthetic appeal</p>
+  </div>
+  </div>
+  <div class="column1 " >
+    <div class="card">
+      <img src="IMAGE/chiller.jfif" style="width:100%" height="100px" ">
+    <h2>Chiller Unit</h2>
+    <p>A chiller is a machine that removes heat from a liquid coolant via a vapor-compression, adsorption refrigeration, or absorption refrigeration cycles. This liquid can then be circulated through a heat exchanger to cool equipment, or another process stream (such as air or process water).</p>
+</div>
+  </div>
+
 <!-- <img src="wall.jpg" width="auto" height="60%" ><p>HELLO World!</p></img> -->
 </Body>
 <script>

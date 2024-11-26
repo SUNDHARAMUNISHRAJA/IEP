@@ -132,3 +132,31 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+/* ---------------------- ROW AND COLUMN SEGREGATION ---------- */
+
+
+.column1 {
+  float: left;
+  width: 33%;
+  padding:0 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.row1 {margin: 0 -5px;}
+
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
