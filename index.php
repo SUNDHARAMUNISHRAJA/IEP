@@ -15,6 +15,7 @@
   </div>
 </div>
 </div>
+<br></br>
 <!-- <Marquee>	<H1>Welcome</H1></Marquee> -->
 <div class="slideshow-container">
 <div class="mySlides fade">
@@ -44,26 +45,83 @@
 
 <div class="row1">
   <div class="column1" >
-   <div class="card">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="IMAGE/hvac.jfif" alt="HVAC" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>HVAC</h1> 
+      <p>HVAC stands for heating, ventilation, and air conditioning. It's a system that controls the temperature, humidity, and air quality of a space. HVAC systems can include components like furnaces, boilers, air conditioning units, ventilation systems, air cleaners, humidifiers, and dehumidifiers</p> 
+      
+    </div>
+  </div>
+</div>
+
+<!--    <div class="card">
       <img src="IMAGE/hvac.jfif" style="width:100%" height="100px">
       <h2>HVAC</h2>
     <p>HVAC stands for heating, ventilation, and air conditioning. It's a system that controls the temperature, humidity, and air quality of a space. HVAC systems can include components like furnaces, boilers, air conditioning units, ventilation systems, air cleaners, humidifiers, and dehumidifiers</p>
   </div> 
+ -->
   </div>
+  
   <div class="column1 ">
-   <div class="card">
-      <img src="IMAGE/duct.jfif" style="width:100%" height="100px" ">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="IMAGE/duct.jfif" alt="DUCT AC" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>DUCT</h1> 
+      <p >A ductable AC system is a type of central air conditioning where cooled air is distributed throughout a building through a network of hidden ducts, providing a discreet and even cooling solution by delivering air through vents strategically placed in ceilings or walls, with only the air grilles visible to the eye; essentially, the entire system is concealed within the building structure, offering a clean aesthetic appeal</p> 
+    </div>
+  </div>
+</div>
+  <!--  <div class="card">
+      <img src="IMAGE/duct.jfif" style="width:100%" height="100px" >
     <h2>Ductable AC</h2>
     <p>A ductable AC system is a type of central air conditioning where cooled air is distributed throughout a building through a network of hidden ducts, providing a discreet and even cooling solution by delivering air through vents strategically placed in ceilings or walls, with only the air grilles visible to the eye; essentially, the entire system is concealed within the building structure, offering a clean aesthetic appeal</p>
   </div>
+   -->
+ </div>
+
+  <div class="column1 ">
+    <div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="IMAGE/domestic.jfif" alt="Domestic" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>DOMESTIC AC</h1> 
+      <p>Domestic Air conditioning is simply air conditioning for your home. AC is becoming increasingly popular because the conventional methods of cooling homes are no longer working due to climate change (summers are much warmer now than it was before). Modern air conditioning will provide useful reliefs from heat or cold.</p> 
+    </div>
   </div>
+</div>
+</div>
+
   <div class="column1 " >
-    <div class="card">
-      <img src="IMAGE/chiller.jfif" style="width:100%" height="100px" ">
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="IMAGE/chiller.jfif" alt="Chiler" style="width:300px;height:300px;">
+    </div>
+    <div class="flip-card-back">
+      <h1>CHILLER</h1> 
+      <p>A chiller is a machine that removes heat from a liquid coolant via a vapor-compression, adsorption refrigeration, or absorption refrigeration cycles. This liquid can then be circulated through a heat exchanger to cool equipment, or another process stream (such as air or process water)</p> 
+      
+    </div>
+  </div>
+</div>
+  <!--   <div class="card">
+      <img src="IMAGE/chiller.jfif" style="width:100%" height="100px" >
     <h2>Chiller Unit</h2>
     <p>A chiller is a machine that removes heat from a liquid coolant via a vapor-compression, adsorption refrigeration, or absorption refrigeration cycles. This liquid can then be circulated through a heat exchanger to cool equipment, or another process stream (such as air or process water).</p>
+</div>  -->
+ </div>
 </div>
-  </div>
+
+<h2>Gallery</h2>
 
 <!-- <img src="wall.jpg" width="auto" height="60%" ><p>HELLO World!</p></img> -->
 </Body>
