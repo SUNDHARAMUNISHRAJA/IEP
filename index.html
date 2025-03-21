@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> INTEGRATED ENGINEERS POINTS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar">
+    <a href="#" class="navbar-header"> INTEGRATED ENGINEERS POINTS</a>
+    <button class='navbar-btn'>
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    <div class='navbar-item hide'>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Product</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="IMAGE/img3.jpeg" style="width:100%" height="400px">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="IMAGE/img4.jpeg" style="width:100%" height="400px">
+  <div class="text">Caption Two</div>
+</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="IMAGE/img5.jpeg" style="width:100%" height="400px">
+  <div class="text">Caption Two</div>
+</div>
+</div>
+<br>
+
+<div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="IMAGE/img3.jpeg" style="width:100%" height="400px">
+  <div class="text">Caption Text</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="IMAGE/img4.jpeg" style="width:100%" height="400px">
+  <div class="text">Caption Two</div>
+</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="IMAGE/img5.jpeg" style="width:100%" height="400px">
+  <div class="text">Caption Two</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<!--  missing The End      -->
+<br>
+<h2>Gallery</h2>
+
+
+<div class="row">
+  <div class="column">
+ <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+
+    </div>
+  </div>
+
+<div class="column">
+ <div class="card">
+  <img src="img_avatar.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>John Doe</b></h4> 
+    <p>Architect & Engineer</p> 
+  </div>
+  </div>
+  </div>
+  <script>
+    document.querySelector(".navbar-btn").onclick=function(){
+       document.querySelector(".navbar-item").classList.toggle("hide");};
+
+        let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+  </script>
+</body>
+</html>
