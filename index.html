@@ -9,6 +9,7 @@
 </head>
 <body>
   <div class="navbar">
+    <img src="cool.jpg" class="image" style="border-radius: 7px;" width="40px" height="40px"></img>
     <a href="#" class="navbar-header"> INTEGRATED ENGINEERS POINTS</a>
     <button class='navbar-btn'>
       <span></span>
@@ -90,7 +91,7 @@
         <div class="flip-card">
            <div class="flip-card-inner">
                  <div class="flip-card-front">
-                   <img src="AC.jpg" alt="HVAC" style="width:300px;height:200px;">
+                   <img src="achome.jpg" alt="HVAC" style="width:300px;height:200px;">
                     <h3>DOMESTIC AC</h3>
                    <P>We are Speciailised in  DUCT  service proviing </P>
                  </div>
@@ -107,7 +108,7 @@
   <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="AC.jpg" alt="HVAC" style="width:300px;height:200px;">
+      <img src="chiller.jpg" alt="HVAC" style="width:300px;height:200px;">
       <h3>CHILLER</h3>
       <P>We are Speciailised in  CHILLER service proviing </P>
     </div>
@@ -124,7 +125,7 @@
   <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="AC.jpg" alt="HVAC" style="width:300px;height:200px;">
+      <img src="hvac.jpg" alt="HVAC" style="width:300px;height:200px;">
       <h3>HVAC</h3>
       <P>We are Speciailised in  HVAC service proviing </P>
     </div>
@@ -141,7 +142,7 @@
   <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
-      <img src="AC.jpg" alt="HVAC" style="width:300px;height:200px;">
+      <img src="duct1.jpeg" alt="HVAC" style="width:300px;height:200px;">
       <h3>DUCTABLE AC</h3>
       <P>We are Speciailised in  DUCT service proviing </P>
     </div>
@@ -154,12 +155,138 @@
 </div>
 </div>
 </div>
+   <div class="row bgcol">
+    <div class="column-3">
+<div class="container">
+  <h2>Book APPOINMENT Now !</h2>
+  <form action="/action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Mobile Number</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Your Mobile Number..">
+      </div>
+    </div>
+     <div class="row">
+      <div class="col-25">
+        <label for="country">Unit Type</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia"> </option>
+          <option value="australia">Split AC </option>
+          <option value="canada">Window AC</option>
+          <option value="usa">Ductable AC</option>
+          <option value="usa">Package AC</option>
+          <option value="usa">HVAC</option>
+          <option value="usa">Chiller Units</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="country">Compliant Type</label>
+      </div>
+      <div class="col-75">
+        <select id="country" name="country">
+          <option value="australia"> </option>
+          <option value="australia">AMC Enquiry </option>
+          <option value="canada">AC Service </option>
+          <option value="usa">Cooling Compliant</option>
+          <option value="usa">Noise issue</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Comment / Describtion</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+    </div>
+
+<div class="column-3 ">
+ <button class="col-3-text-color"><h2 >OUR AMC SCHEMES</h2> </button>
+<button class="collapsible">Scheme 1 : GOLD - AMC Comprehensive </button>
+<div class="content">
+  <ul>
+    <li>we are providing 3 water service</li>
+    <li>All the cost of spares and materials are our responsiblity</li>
+    <li>We will provide our services whenever breakdown calls received</li>
+  </ul>
+</div>
+<button class="collapsible">Scheme 2 : SILVER - AMC Comprehensive</button>
+<div class="content">
+    <ul>
+    <li>we are providing 2 water service</li>
+    <li>All the cost of spares and materials are our responsiblity</li>
+    <li>We will provide our services whenever breakdown calls received</li>
+  </ul>
+</div>
+<button class="collapsible">Scheme 3 : BRONZE- AMC NON Comprehensive</button>
+<div class="content">
+     <ul>
+    <li>we are providing 3 water service</li>
+    <li>Cost of spares and materials are Chargable</li>
+    <li>We will provide our services whenever breakdown calls received</li>
+  </ul>
+</div>
+<button class="collapsible">Scheme 4 : CUSTOMER CHOICE</button>
+<div class="content">
+     <ul>
+    <li>Customer can choose number of service and service type</li>
+    <li>Customer can choose any method ( Comprehensive/Non Comprehensive )</li>
+    <li>Customer can also take only service option</li>
+  </ul>
+</div>
+</div>
+</div>
+
 <script>
       document.querySelector(".navbar-btn").onclick=function(){
       document.querySelector(".navbar-item").classList.toggle("hide");};
         let slideIndex = 0;
         let slideIndex1 = 0;
+
+
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+  
+
+
+
+
 showSlides();
+
 
 function showSlides() {
   let i;
